@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CameraResult</string>
+    <string name="no_serach">未找到结果，小当为您推荐以下类似商品：</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
