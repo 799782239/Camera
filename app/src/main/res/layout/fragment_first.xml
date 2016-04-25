@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="140dp">
+    android:layout_height="140dp"
+    android:background="@color/colorBlank">
 
     <RelativeLayout
         android:id="@+id/btn_camera"
@@ -42,11 +43,11 @@
             android:layout_centerHorizontal="true"
             android:background="@drawable/circle_out" />
 
-        <ImageButton
+        <ImageView
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="12.5dp"
             android:src="@mipmap/album_icon" />
     </RelativeLayout>
 

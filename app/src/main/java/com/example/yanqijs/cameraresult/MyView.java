@@ -16,7 +16,7 @@ public class MyView extends View {
     private Paint mPaint;
     private Rect mBounds;
     private Context mContext;
-    private float mScale;
+    public static float mScale;
     public static int width;
     public static int height;
     public static int PICTURE_WIDTH;
@@ -85,7 +85,7 @@ public class MyView extends View {
         return (int) (pxValue / mScale + 0.5f);
     }
 
-    public int dip2px(float dpValue) {
+    public static int dip2px(float dpValue) {
         return (int) (dpValue * mScale + 0.5f);
     }
 }
